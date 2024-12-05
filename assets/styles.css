@@ -1,0 +1,48 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Estilo para el párrafo que muestra el número */
+  #contador {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  /* Estilo para los botones */
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Efecto hover en los botones */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Efecto al hacer clic en los botones */
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Ajustes para dispositivos pequeños */
+  @media (max-width: 600px) {
+    button {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  }
+  
